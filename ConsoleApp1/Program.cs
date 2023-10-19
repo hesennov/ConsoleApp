@@ -20,7 +20,8 @@ namespace ConsoleApp1
             //    Console.WriteLine(arrs);
 
             //}
-            //Console.ReadLine();
+
+            
             Console.WriteLine("adinizi girin");
             string name = Console.ReadLine();
             /*Console.WriteLine("your's names"+ name)*/;
