@@ -80,6 +80,7 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("duzgun islem yapin");
                 Console.ReadLine();
+                //aa
             }
         }
 
