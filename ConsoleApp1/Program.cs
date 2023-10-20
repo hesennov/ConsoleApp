@@ -23,7 +23,8 @@ namespace ConsoleApp1
             //Console.ReadLine();
             //Console.WriteLine("adinizi girin");
             //string name = Console.ReadLine();
-            /*Console.WriteLine("your's names"+ name)*/;
+            /*Console.WriteLine("your's names"+ name)*/
+            ;
             //Console.WriteLine($"welcome  {name}");
             //a
             //Console.ReadLine();
@@ -46,43 +47,81 @@ namespace ConsoleApp1
             //{
             //    Console.WriteLine("F");
             //}
-            //Console.ReadLine();
-        int bakiye = 1000;
-            Console.WriteLine("işleminizi seçin");
-          string secim = Console.ReadLine();
-            if(secim == "1")
-            {
-                Console.WriteLine("bakiyeniz" + bakiye);
-                Console.ReadLine();
-            }
-            else if(secim == "2")
-            {
-                Console.WriteLine("meblegi girin");
-                int islem = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("bakiyeniz:" + (bakiye + islem));
-                Console.WriteLine("Para yatirildi");
-                Console.ReadLine();
-            }
-            else if (secim == "3")
-            {
-                Console.WriteLine("cekmek istediginiz tutari girin ");
-                int tutar = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("bakiyeniz :"+ (bakiye - tutar));
-                Console.ReadLine();
-            }
-            else if(secim == "q")
-            {
-                Console.WriteLine("atm'den cikis yapiliyor...");
-                Console.WriteLine("atmden cikis yapildi");
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("duzgun islem yapin");
-                Console.ReadLine();
-                //aa
-            }
-        }
+            //    //Console.ReadLine();
+            //int bakiye = 1000;
+            //    Console.WriteLine("işleminizi seçin");
+            //  string secim = Console.ReadLine();
+            //    if(secim == "1")
+            //    {
+            //        Console.WriteLine("bakiyeniz" + bakiye);
+            //        Console.ReadLine();
+            //    }
+            //    else if(secim == "2")
+            //    {
+            //        Console.WriteLine("meblegi girin");
+            //        int islem = Convert.ToInt32(Console.ReadLine());
+            //        Console.WriteLine("bakiyeniz:" + (bakiye + islem));
+            //        Console.WriteLine("Para yatirildi");
+            //        Console.ReadLine();
+            //    }
+            //    else if (secim == "3")
+            //    {
+            //        Console.WriteLine("cekmek istediginiz tutari girin ");
+            //        int tutar = Convert.ToInt32(Console.ReadLine());
+            //        Console.WriteLine("bakiyeniz :"+ (bakiye - tutar));
+            //        Console.ReadLine();
+            //    }
+            //    else if(secim == "q")
+            //    {
+            //        Console.WriteLine("atm'den cikis yapiliyor...");
+            //        Console.WriteLine("atmden cikis yapildi");
+            //        Console.ReadLine();
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("duzgun islem yapin");
+            //        Console.ReadLine();
+            //aa
+            //   }
+            //for(int i=1; i<10; i++)
+            //    {
+            //        for(int j=1; j<=i; j++)
+            //        {
+            //            Console.Write(j);
+            //        }
+            //        Console.WriteLine("");
+            //    }
+            //    Console.ReadLine();
+            //}
+            int a = 1;
+            int toplam = 0;
+            //    do
+            //    {
+            //        Console.WriteLine(a);
+            //        a++;
+            //    } while (a < 100);
+            //    Console.ReadLine();
+            //}
+            //do
+            //{
+            //    //toplam += a;
+            //    toplam = toplam + a;
+            //    a++;
 
+            //} while (a <= 100);
+            //Console.WriteLine(toplam);
+            //Console.ReadLine();
+            for(int i=1; i<=10; i++)
+            {
+                if (i == 5)
+                {
+                    //break;
+                    continue;
+                }
+                Console.WriteLine(i);
+                
+            }
+            Console.ReadLine();
+        }
     }
 }
