@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -119,16 +120,38 @@ namespace ConsoleApp1
             //        continue;
             //    }
             //    Console.WriteLine(i);
-                
+
             //}
-            for (int i = 1; i < 10; i++)
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for(int j = 1; j<10;  j++)
+            //    {
+            //        Console.WriteLine(i+"x"+j+"="+(i*j));
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //Console.ReadLine();
+
+            //int[] numbers = new int[3];
+            //numbers[0] = 1;
+            //numbers[1] = 52;
+            //numbers[2] = 23;
+            string[] names = new string[3];
+                names[0] = "hesen";
+            names[1] = "asas";
+            names[2] = "assasasa";
+            string[] adlar = { "as", "asdafsdfasdf", "asadsadsad", "asdasdsadsadsadsa", "sadasdsadasdasdaf" }; 
+           
+
+          //for(int i = 0; i<numbers.Length; i++)
+          //  {
+          //      Console.WriteLine(numbers[i]);
+          //  };
+
+            for (int i = 0; i < adlar.Length; i++)
             {
-                for(int j = 1; j<10;  j++)
-                {
-                    Console.WriteLine(i+"x"+j+"="+(i*j));
-                }
-                Console.WriteLine("");
-            }
+                Console.WriteLine(adlar[i]);
+            };
             Console.ReadLine();
         }
     }
