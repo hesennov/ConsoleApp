@@ -136,23 +136,35 @@ namespace ConsoleApp1
             //numbers[0] = 1;
             //numbers[1] = 52;
             //numbers[2] = 23;
-            string[] names = new string[3];
-                names[0] = "hesen";
-            names[1] = "asas";
-            names[2] = "assasasa";
-            string[] adlar = { "as", "asdafsdfasdf", "asadsadsad", "asdasdsadsadsadsa", "sadasdsadasdasdaf" }; 
-           
+            //string[] names = new string[3];
+            //    names[0] = "hesen";
+            //names[1] = "asas";
+            //names[2] = "assasasa";
+            //string[] adlar = { "as", "asdafsdfasdf", "asadsadsad", "asdasdsadsadsadsa", "sadasdsadasdasdaf" }; 
 
-          //for(int i = 0; i<numbers.Length; i++)
-          //  {
-          //      Console.WriteLine(numbers[i]);
-          //  };
 
-            for (int i = 0; i < adlar.Length; i++)
+            //for(int i = 0; i<numbers.Length; i++)
+            //  {
+            //      Console.WriteLine(numbers[i]);
+            //  };
+
+            //for (int i = 0; i < adlar.Length; i++)
+            //{
+            //    Console.WriteLine(adlar[i]);
+            //};
+            //Console.ReadLine();
+
+            int[] numbers = new int[4];
+
+            numbers[0] = int.Parse(Console.ReadLine());
+            numbers[1] = 123;
+            numbers[2] = int.Parse(Console.ReadLine());
+            numbers[3] = 4213;
+            for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine(adlar[i]);
-            };
+                Console.WriteLine(numbers[i]);
+            }
             Console.ReadLine();
-        }
+        }       
     }
 }
