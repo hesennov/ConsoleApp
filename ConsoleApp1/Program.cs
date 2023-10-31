@@ -166,25 +166,32 @@ namespace ConsoleApp1
             //}
             //Console.ReadLine();
 
-            string[] testName = { "as", "  as", "as"};
+            //string[] testName = { "as", "  as", "as"};
 
-            int[] numbers = new int[4];
+            //int[] numbers = new int[4];
 
-            for(int i =0; i< numbers.Length; i++)
-            {
-                Console.WriteLine("numbersin" + " " + (i + 1) + " reqemin girin");
+            //for(int i =0; i< numbers.Length; i++)
+            //{
+            //    Console.Write("numbersin" + " " + (i + 1) + " reqemin girin : ");
 
-                numbers[i] = int.Parse(Console.ReadLine());
-                //Console.WriteLine(testName[i]);
-            }
-            Console.WriteLine("***********************************************************************************************************");
+            //    numbers[i] = int.Parse(Console.ReadLine());
+            //    //Console.WriteLine(testName[i]);
+            //}
+            //Console.WriteLine("***********************************************************************************************************");
 
-            for(int i = 0; i < numbers.Length; i++)
-            {
-                Console.WriteLine(numbers[i]);
-            }
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            //Console.ReadLine();
+
+            string[] testName = { "as", "  as", "as" }; 
+
+            foreach (string i in testName) { 
+            Console.WriteLine(i);
+                    };
             Console.ReadLine();
-
+            //null
         } 
     }
 }
