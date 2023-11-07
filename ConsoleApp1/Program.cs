@@ -185,13 +185,21 @@ namespace ConsoleApp1
             //}
             //Console.ReadLine();
 
-            string[] testName = { "as", "  as", "as" }; 
+            //string[] testName = { "as", "  as", "as" }; 
 
-            foreach (string i in testName) { 
-            Console.WriteLine(i);
-                    };
-            Console.ReadLine();
-            //null21321423423431hhkjhjk
+            //foreach (string i in testName) { 
+            //Console.WriteLine(i);
+            //        };
+            //Console.ReadLine();
+
+           for(int i=1; i <= 10; i++) {
+            for(int j=1; j <= 10; j++)
+                {
+                    Console.WriteLine(i + "x" + j + "=" + (i * j));
+                }
+            Console.WriteLine(' ');
+            }
+           Console.ReadLine();
         } 
     }
 }
