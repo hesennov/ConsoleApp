@@ -198,6 +198,7 @@ namespace ConsoleApp1
                     Console.WriteLine(i + "x" + j + "=" + (i * j));
                 }
             Console.WriteLine(' ');
+                //sad
             }
            Console.ReadLine();
         } 
